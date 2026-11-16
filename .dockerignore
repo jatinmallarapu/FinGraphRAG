@@ -1,0 +1,7 @@
+# Include only paths needed to package fingraphrag and execute its sample.
+*
+!README.md
+!pyproject.toml
+!fingraphrag.py
+!examples/
+!examples/**

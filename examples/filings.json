@@ -1,0 +1,30 @@
+{
+  "chunks": [
+    {
+      "id": "a",
+      "filing": "Fictional Northwind 10-K",
+      "page": 12,
+      "element": "table",
+      "text": "Northwind identifies Harbor Circuit as a supplier."
+    },
+    {
+      "id": "b",
+      "filing": "Fictional Harbor Circuit 10-K",
+      "page": 8,
+      "element": "text",
+      "text": "Harbor Circuit depends on a single assembly site."
+    }
+  ],
+  "edges": [
+    {
+      "left": "Northwind",
+      "right": "Harbor Circuit",
+      "source": "a"
+    },
+    {
+      "left": "Harbor Circuit",
+      "right": "Assembly Site",
+      "source": "b"
+    }
+  ]
+}
