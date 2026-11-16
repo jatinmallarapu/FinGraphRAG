@@ -17,6 +17,8 @@ Filing fragments and sourced edges → lexical and graph retrieval → reciproca
 | Local acceptance tests | Corpus checks, provenance, graph expansion, and rank fusion |
 | Production benchmark | Pending |
 
+On the bundled two-document fixture, querying `Northwind` returned chunk `a` in lexical mode and chunks `a` and `b` in both graph and hybrid modes. Chunk `b` describes the supplier's assembly-site dependency without mentioning Northwind. This demonstrates the relationship path the comparison is designed to test at larger scale.
+
 ## Quickstart
 
 Python 3.11 or newer.
